@@ -225,36 +225,19 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {PutYourID(BOTID),tonumber(our_id)},--Sudo users
+    sudo_users = {PutYourID(134618808),tonumber(134618808)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+https://github.com/amirf2020
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [name]
-Create a group
+کسکش کم بساز
 
 !createrealm [name]
 Create a realm
@@ -383,7 +366,7 @@ Set [text] as about
 Returns group settings
 
 !newlink
-Create/revoke your group link
+ساخته شد لینک جدید 
 
 !link
 Returns group link
@@ -515,6 +498,7 @@ now = os.time()
 math.randomseed(now)
 started = false
 
---Edit By @ali_ghoghnoos For SelfBot !
+--Edit By @alfroshotak For SelfBot !
 
 --Our Channel @tlemanager_ch
+!zac بزن واسش ساک
